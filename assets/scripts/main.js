@@ -61,17 +61,16 @@ function initializeServiceWorker() {
         // B4. TODO - Once the service worker has been successfully registered, console
         //            log that it was successful.
 
-        .then(() => {
-          console.log("Service worker has been successfully registered!");
-        })
+        .then((registration) => {
+          console.log("Service worker has been successfully registered");
+        },
 
         // B5. TODO - In the event that the service worker registration fails, console
         //            log that it has failed.
-
-        .catch(error => {
-          console.log("Service worker registration failed.");
+        
+        (error) => {
+          console.log("Service worker registration failed:", error);
         })
-
     })
   }
   // STEPS B6 ONWARDS WILL BE IN /sw.js
