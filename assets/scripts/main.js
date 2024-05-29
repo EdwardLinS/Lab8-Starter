@@ -61,7 +61,7 @@ function initializeServiceWorker() {
         // B4. TODO - Once the service worker has been successfully registered, console
         //            log that it was successful.
 
-        .then((registration) => {
+        .then(() => {
           console.log("Service worker has been successfully registered");
         },
 
