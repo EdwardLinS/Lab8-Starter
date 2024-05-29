@@ -3,7 +3,7 @@
   "short_name": "Edward Lin",
   "description": "Recipes",
   "start_url": "./",
-  "display": "browser",
+  "display": "minimal-ui",
   "background_color": "black",
   "theme_color": "gray",
   "icons": [
